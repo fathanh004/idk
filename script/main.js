@@ -293,7 +293,7 @@ const animationTimeline = () => {
     );
 
   // tl.seek("currentStep");
-  tl.timeScale(1);
+  tl.timeScale(0.5);
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
