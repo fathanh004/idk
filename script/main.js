@@ -246,8 +246,8 @@ tl
     rotation: 90
   }, "+=1");
 
-  // tl.seek("currentStep");
-  // tl.timeScale(2);
+  tl.seek("currentStep");
+  tl.timeScale(0.5);
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
