@@ -247,7 +247,7 @@ tl
   }, "+=1");
 
   tl.seek("currentStep");
-  tl.timeScale(1);
+  tl.timeScale(1.5);
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
